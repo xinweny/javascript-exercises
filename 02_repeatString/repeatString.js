@@ -1,4 +1,6 @@
 const repeatString = function(string, num) {
+    if (num < 0) return 'ERROR';
+
     // Recursion method
     if (num == 0) {
         return '';
