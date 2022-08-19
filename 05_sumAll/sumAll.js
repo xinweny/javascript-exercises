@@ -1,4 +1,6 @@
 const sumAll = function(a, b) {
+    if (!(typeof a === 'number') || !(typeof b === 'number')) return 'ERROR';
+
     let sum = 0;
 
     if (a <= b) {
